@@ -67,6 +67,7 @@ function hideshow() {
 function shift() {
     var select = document.getElementsByClassName("select");
     var selecta = select[0].getElementsByTagName("a");
+    var n = 1;
     for (var i = 0; i < selecta.length; i++) {
         selecta[i].i = i;
         selecta[i].onclick = function () {
@@ -75,6 +76,13 @@ function shift() {
             return false;
         }
     }
+    setInterval(function () {
+        selecta[n].click();
+        n++;
+        if (n > selecta.length - 1) {
+            n = 0;
+        }
+    }, 6000);
 }
 
 function showPic(whichse) {
@@ -147,7 +155,5 @@ function slowchange(target,which) {
     }, 20);
 }
 
-function marchine() {
 
-}
 
