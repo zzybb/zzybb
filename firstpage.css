@@ -10,6 +10,15 @@
     background-position:left;
     z-index:1;
 }
+div.navmap{
+    width:1350px;
+    background-image:url(images/nav.png);
+    background-repeat:repeat-x;
+    position:absolute;
+    top:70px;
+    height:50px;
+    left:-19px;
+}
 ul#nav{
     position:absolute;
     list-style-type:none;
@@ -42,6 +51,8 @@ div.nav2 {
     border-top:none;
     left:-9999px;
     top:-33px;
+    z-index:1;
+    background-color:white;
 }
 div.nav2 h3{
    color:grey;
@@ -66,9 +77,11 @@ div.nav3 {
     position:relative;
     border: 1px solid #bababa;
     width:300px;
-    top:-420px;
+    top:-418px;
     left:-9999px;
-
+    z-index:1;
+    background-color:white;
+    border-top:none;
 }
 div.nav3 h3{
    color:grey;
@@ -88,5 +101,194 @@ div.nav3 a{
     text-decoration: none;
     color: #343434;
     font-size: small;
+}
+div.showpic{
+    position:absolute;
+    top:100px;
+    left:350px;
+    border-left:1px solid #e90029;
+    width:800px;
+    height:400px;
+}
+div.select1 {
+    display:block;
+    float:left;
+    padding-left:60px;
+}
+div.select2 {
+    display:none;
+    float:left;
+    padding-left:60px;
+}
+div.select3 {
+    display:none;
+    float:left;
+    padding-left:60px;
+}
+div.select4 {
+    display:none;
+    float:left;
+    padding-left:60px;
+}
+div.select1 h3,
+div.select2 h3,
+div.select3 h3,
+div.select4 h3
+{
+    position:relative;
+    color:#e90029;
+    font-size:60px;
+    top:-30px;
+    
+}
+div.select1 p,
+div.select2 p,
+div.select3 p,
+div.select4 p{
+    position:relative;
+    top:-40px;
+    font-size:5px;
+}
+div.select1 img{
+    position:absolute;
+    top:40px;
+    left:350px;
+}
+div.select2 img{
+    position:absolute;
+    top:80px;
+    left:370px;
+}
+div.select3 img{
+    position:absolute;
+    top:80px;
+    left:370px;
+}
+div.select4 img{
+    position:absolute;
+    top:120px;
+    left:370px;
+}
+
+div.select {
+    float:right;
+    width:1px;
+    margin-right:40px;
+    padding-top:10px;
+    height:50px;
+}
+div.select a {
+    display: block;
+    padding: 8px;
+    margin: 40px;
+    text-indent: -9999px;
+    background-image: url(images/button.png);
+    background-repeat: no-repeat;
+    background-position: -15px 0;
+    height:5px;
+
+}
+#selectred{
+    display:block;
+    padding:8px;
+    margin:40px;
+    text-indent:-9999px;
+    background-image:url(images/button.png);
+    background-repeat:no-repeat;
+    background-position:1px 0px;
+    height:5px;
+}
+div.select1 button,
+div.select2 button,
+div.select3 button,
+div.select4 button{
+	background-color:#3bb3e0;
+	font-family: 'Open Sans', sans-serif;
+	font-size:12px;
+	text-decoration:none;
+	color:#fff;
+	position:relative;
+	padding:10px 20px;
+	padding-right:50px;
+	background-image: linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+	background-image: -o-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+	background-image: -moz-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+	background-image: -webkit-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+	background-image: -ms-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+	background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0, rgb(44,160,202)),
+	color-stop(1, rgb(62,184,229))
+	);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #156785, 0px 10px 5px #999;
+	-moz-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #156785, 0px 10px 5px #999;
+	-o-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #156785, 0px 10px 5px #999;
+	box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #156785, 0px 10px 5px #999;
+}
+
+div.select1 button:active,
+div.select2 button:active,
+div.select3 button:active
+div.select4 button:active{
+	top:3px;
+	background-image: linear-gradient(bottom, rgb(62,184,229) 0%, rgb(44,160,202) 100%);
+	background-image: -o-linear-gradient(bottom, rgb(62,184,229) 0%, rgb(44,160,202) 100%);
+	background-image: -moz-linear-gradient(bottom, rgb(62,184,229) 0%, rgb(44,160,202) 100%);
+	background-image: -webkit-linear-gradient(bottom, rgb(62,184,229) 0%, rgb(44,160,202) 100%);
+	background-image: -ms-linear-gradient(bottom, rgb(62,184,229) 0%, rgb(44,160,202) 100%);
+	background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0, rgb(62,184,229)),
+	color-stop(1, rgb(44,160,202))
+	);
+	-webkit-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #156785, 0px 5px 3px #999;
+	-moz-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #156785, 0px 5px 3px #999;
+	-o-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #156785, 0px 5px 3px #999;
+	box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #156785, 0px 5px 3px #999;
+}
+
+div.select1 button::before
+div.select2 button::before
+div.select3 button::before
+div.select4 button::before{
+	background-color:#2591b4;
+	background-image:url(../images/right_arrow.png);
+	background-repeat:no-repeat;
+	background-position:center center;
+	content:"";
+	width:20px;
+	height:20px;
+	position:absolute;
+	right:15px;
+	top:50%;
+	margin-top:-9px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+	-webkit-box-shadow: inset 0px 1px 0px #052756, 0px 1px 0px #60c9f0;
+	-moz-box-shadow: inset 0px 1px 0px #052756, 0px 1px 0px #60c9f0;
+	-o-box-shadow: inset 0px 1px 0px #052756, 0px 1px 0px #60c9f0;
+	box-shadow: inset 0px 1px 0px #052756, 0px 1px 0px #60c9f0;
+}
+
+div.select1 button:active::before,
+div.select2 button:active::before,
+div.select3 button:active::before,
+div.select4 button:active::before{
+	top:50%;
+	margin-top:-12px;
+	-webkit-box-shadow: inset 0px 1px 0px #60c9f0, 0px 3px 0px #0e3871, 0px 6px 3px #1a80a6;
+	-moz-box-shadow: inset 0px 1px 0px #60c9f0, 0px 3px 0px #0e3871, 0px 6px 3px #1a80a6;
+	-o-box-shadow: inset 0px 1px 0px #60c9f0, 0px 3px 0px #0e3871, 0px 6px 3px #1a80a6;
+	box-shadow: inset 0px 1px 0px #60c9f0, 0px 3px 0px #0e3871, 0px 6px 3px #1a80a6;
 }
 
