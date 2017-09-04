@@ -1,4 +1,7 @@
-﻿div.top{
+﻿body{
+    width:100%;
+}
+div.top{
     background-color:black;
     width:102%;
     position:relative;
@@ -291,4 +294,105 @@ div.select4 button:active::before{
 	-o-box-shadow: inset 0px 1px 0px #60c9f0, 0px 3px 0px #0e3871, 0px 6px 3px #1a80a6;
 	box-shadow: inset 0px 1px 0px #60c9f0, 0px 3px 0px #0e3871, 0px 6px 3px #1a80a6;
 }
+div.center{
+    position:relative;
+    top:-350px;
+    width:1370px;
+    height:400px;
+
+}
+div.center h2{
+    position:relative;
+    left:550px;
+    font-size:35px;
+    width:400px;
+}
+div.center a{
+    float:right; 
+}
+div.sel {
+    position:relative;
+    top:-300px;
+    height:500px;
+    width:1000px;
+    left:200px;
+}
+div.sel ul{
+    position:absolute;
+    list-style-type:none;
+    top:20px;
+    left:50px;
+}
+div.sel li{
+    margin:0px;
+}
+div.sel li a{
+    display:block;
+    text-decoration:none;
+    border-bottom:1px grey solid; 
+    width:200px;
+    height:30px;
+    padding-top:10px;
+    padding-left:10px;
+    color:#343434;
+    font-size:10px;
+}
+div.sel1 {
+    display:block;
+    position: relative;
+    left: 400px;
+    width: 500px;
+    height: 450px;
+    top: 50px;
+}
+div.sel2 {
+    display:none;
+    position: relative;
+    left: 400px;
+    width: 500px;
+    height: 450px;
+    top: 50px;
+}
+div.sel3 {
+    display:none;
+    position: relative;
+    left: 400px;
+    width: 500px;
+    height: 450px;
+    top: 50px;
+}
+div.sel1 p{
+    position:absolute;
+    top:-70px;
+    color:#e90029;
+    font-size:30px;
+    font-weight:900;
+    margin-left:200px;
+}
+    
+div.sel1 ul{
+    list-style-type:circle;
+}
+div.sel2 ul{
+    position:relative;
+    list-style-type:initial;
+    top:10px;
+}
+div.sel2 li{
+    margin-top:10px;
+    margin-left:-40px;
+}
+div.sel li:hover{
+    background-color:#e90029;
+}
+div.sel li a:hover{
+    color:white;
+    font-weight:800;
+}
+div.sel1 li:hover{
+    background-color:white;
+}
+div.sel2 li:hover{
+    background-color:white;
+} 
 

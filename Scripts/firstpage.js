@@ -1,7 +1,7 @@
+addLoadEvent(showsel);
 addLoadEvent(nav);
 addLoadEvent(hideshow);
 addLoadEvent(shift);
-
 function nav() {
     var nav = document.getElementById("nav");
     var links = nav.getElementsByTagName("a");
@@ -155,5 +155,34 @@ function slowchange(target,which) {
     }, 20);
 }
 
+function showsel() {
+    var sel = document.getElementsByClassName("sel");
+    var links = sel[0].getElementsByTagName("a");
+    for (var i = 0; i < links.length; i++) {
+        links[i].onclick = function () {
+            selshift(this);
+            return false;
+        }
+    }
+}
 
-
+function selshift(whic) {
+    var sel = document.getElementsByClassName("sel");
+    var links = sel[0].getElementsByTagName("a");
+    var div = sel[0].getElementsByTagName("div");
+    if (whic == links[0]) {
+        div[0].style.display = "block";
+        div[1].style.display = "none";
+        div[2].style.display = "none";
+    }
+    if (whic == links[1]) {
+        div[1].style.display = "block";
+        div[0].style.display = "none";
+        div[2].style.display = "none";
+    }
+    if (whic == links[2]) {
+        div[2].style.display = "block";
+        div[1].style.display = "none";
+        div[0].style.display = "none";
+    }
+}
