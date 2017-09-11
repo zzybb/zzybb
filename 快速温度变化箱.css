@@ -1,0 +1,253 @@
+﻿body{
+    width:100%;
+    background: #f1f1f1;
+}
+div.top{
+    background-color:black;
+    width:102%;
+    position:relative;
+    top:-15px;
+    left:-10px;
+    height:80px;
+    background-image:url(images/logo.png);
+    background-repeat:no-repeat;
+    background-position:left;
+    z-index:1;
+}
+div.navmap{
+    width:1350px;
+    background-image:url(images/nav.png);
+    background-repeat:repeat-x;
+    position:absolute;
+    top:70px;
+    height:50px;
+    left:-19px;
+}
+ul#nav{
+    position:absolute;
+    list-style-type:none;
+    top:20%;
+    left:60%;
+}
+ul#nav li{
+    display:inline-block;
+    padding-left:40px;
+}
+ul#nav a{
+    display:block;
+    text-decoration:none;
+    color:white;
+    height:48px;
+    position:relative;
+    top:-23px;
+    padding-top:23px;
+    padding-left:5px;
+    padding-right:5px;
+}
+ul#nav a:hover{
+    color:black;
+    background-color:white;
+}
+div.nav2 {
+    position: relative;
+    border: 1px solid #bababa;
+    width:300px;
+    border-top:none;
+    left:-9999px;
+    top:-33px;
+    z-index:1;
+    background-color:white;
+}
+div.nav2 h3{
+   color:grey;
+   padding-left:30px;
+   padding-top:20px;
+}
+div.nav2 ul{
+    list-style-type:none;
+}
+div.nav2 li {
+    margin: 10px;
+}
+div.nav2 p {
+    font-weight: bold;
+}
+div.nav2 a {
+    text-decoration: none;
+    color: #343434;
+    font-size: small;
+}
+div.nav3 {
+    position:relative;
+    border: 1px solid #bababa;
+    width:300px;
+    top:-418px;
+    left:-9999px;
+    z-index:1;
+    background-color:white;
+    border-top:none;
+}
+div.nav3 h3{
+   color:grey;
+   padding-left:30px;
+   padding-top:20px;
+}
+div.nav3 ul{
+    list-style-type:none;
+}
+div.nav3 li{
+    margin:10px;
+}
+div.nav3 p{
+    font-weight:bold;
+}
+div.nav3 a{
+    text-decoration: none;
+    color: #343434;
+    font-size: small;
+}
+div.content {
+    position: absolute;
+    top: 100px;
+    width: 1000px;
+    left: 150px;
+    height:500px;
+    background-image: url(images/快速温度变化实验箱1.png);
+    background-position:90% 40%;
+    background-repeat:no-repeat;
+    border:0;
+    box-shadow: 1px 0 0 0 #d2d2d2, 
+        -1px 0 0 0 #d2d2d2, 
+        0 1px 0 0 #b6b6b6,
+        0 2px 0 0 #d2d2d2, 
+        2px 0 0 0 #e6e6e6,
+        -2px 0 0 0 #e6e6e6,
+        0 3px 0 0 #e6e6e6,
+        0 -1px 0 0 #e6e6e6;
+    background-color:white;
+}
+div.content h1{
+    font-size: 300%;
+    margin-left:20px;
+    margin-top:10px;
+}
+div.content p{
+    font-weight: normal;
+    font-size: 150%;
+    color: #9c9c9c;
+    margin-left: 25px;
+    margin-top:-20px;
+
+}
+div.content ul{
+    margin-left:20px;
+}
+div.content ul p{
+    font-size:100%;
+    font-weight:200;
+    color:black;
+    margin-left:0;
+    margin-top:0;
+}
+
+div.content1 {
+    position: absolute;
+    top: 630px;
+    width: 1000px;
+    left: 150px;
+    height:580px;
+    background-image: url(images/快速温度变化实验箱2.png);
+    background-position:90% 40%;
+    background-repeat:no-repeat;
+    border:0;
+    box-shadow: 1px 0 0 0 #d2d2d2, 
+        -1px 0 0 0 #d2d2d2, 
+        0 1px 0 0 #b6b6b6,
+        0 2px 0 0 #d2d2d2, 
+        2px 0 0 0 #e6e6e6,
+        -2px 0 0 0 #e6e6e6,
+        0 3px 0 0 #e6e6e6,
+        0 -1px 0 0 #e6e6e6;
+    background-color:white;
+}
+
+div.content1 h1{
+    font-size: 300%;
+    margin-left:20px;
+    margin-top:10px;
+}
+div.content1 p{
+    font-weight: normal;
+    font-size: 150%;
+    color: #9c9c9c;
+    margin-left: 25px;
+    margin-top:-20px;
+
+}
+div.content1 ul{
+    margin-left:20px;
+}
+div.content1 ul p{
+    font-size:100%;
+    font-weight:200;
+    color:black;
+    margin-left:0;
+    margin-top:0;
+}
+
+div.content2 {
+    position: absolute;
+    top: 1240px;
+    width: 1000px;
+    left: 150px;
+    height:600px;
+    background-image: url(images/快速温度变化实验箱3.png);
+    background-position:90% 40%;
+    background-repeat:no-repeat;
+    border:0;
+    box-shadow: 1px 0 0 0 #d2d2d2, 
+        -1px 0 0 0 #d2d2d2, 
+        0 1px 0 0 #b6b6b6,
+        0 2px 0 0 #d2d2d2, 
+        2px 0 0 0 #e6e6e6,
+        -2px 0 0 0 #e6e6e6,
+        0 3px 0 0 #e6e6e6,
+        0 -1px 0 0 #e6e6e6;
+    background-color:white;
+}
+
+div.content2 h1{
+    font-size: 300%;
+    margin-left:20px;
+    margin-top:10px;
+}
+div.content2 p{
+    font-weight: normal;
+    font-size: 150%;
+    color: #9c9c9c;
+    margin-left: 25px;
+    margin-top:-20px;
+
+}
+div.content2 ul{
+    margin-left:20px;
+}
+div.content2 ul p{
+    font-size:100%;
+    font-weight:200;
+    color:black;
+    margin-left:0;
+    margin-top:0;
+}
+
+div.content2 ul p span{
+    color:#e90029;
+}
+
+div.bottom{
+    position:relative;
+    background-color:black;
+    height:200px;
+    color:white;
+    top:1000px;
+}
