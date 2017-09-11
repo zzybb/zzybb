@@ -395,4 +395,8 @@ div.sel1 li:hover{
 div.sel2 li:hover{
     background-color:white;
 } 
-
+div.bottom{
+    background-color:black;
+    height:200px;
+    color:white;
+}
