@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    聊天内容：
+	<br>
+	
+	<!-- textarae显示聊天内容，设置id方便访问该标签，设置disabled让文本框不可以输入数据，设置style背景色为白色（这些在css里设置，这里为了演示方便） -->
+	<textarea id="chatbox" rows="10" cols="50" disabled="disabled"
+		style="background-color: white;"></textarea>
+	<br>
+	
+	<!-- 用表单来提交数据，设置name方便访问，action为servlet地址，target为跳转下面设置的页面“sform”，相当于不跳转 -->
+	<form name="myform" method="post" action="sendmsg" target="sform">
+	
+		<!-- 输入框完成消息输入 -->
+		<input id="msginput" type="text" name="chatmsg" />
+		
+		<!-- 发送按钮，点击执行sendok（）方法 -->
+		<input type="button" value="发送" onclick="sendok('msginput')" />
+	</form>
+    <iframe width="0" height="0" style="display: none" name="sform"></iframe>
+
+</body>
+</html>

@@ -14,6 +14,14 @@ div.top{
     background-position:left;
     z-index:1;
 }
+div.top .home{
+    position:absolute;
+    display:block;
+    width:200px;
+    height:60px;
+    left:20px;
+    top:15px;
+}
 div.navmap{
     width:1350px;
     background-image:url(images/nav.png);
@@ -106,9 +114,25 @@ div.nav3 a{
     color: #343434;
     font-size: small;
 }
+div.breadnav{
+    position:absolute;
+    top:65px;
+    left:50px;
+}
+div.breadnav ul {
+    list-style-type:none;
+}
+div.breadnav ul li{
+    display:inline-block;
+    margin:5px;
+}
+div.breadnav ul li a{
+    text-decoration:none;
+    color:#3385ff;
+}
 div.content {
     position: absolute;
-    top: 100px;
+    top: 120px;
     width: 1000px;
     left: 150px;
     height:500px;
@@ -156,7 +180,7 @@ div.content p span{
 
 div.content1 {
     position: absolute;
-    top: 630px;
+    top: 650px;
     width: 1000px;
     left: 150px;
     height:620px;
@@ -201,7 +225,7 @@ div.content1 ul p{
 
 div.content2 {
     position: absolute;
-    top: 1280px;
+    top: 1300px;
     width: 1000px;
     left: 150px;
     height:600px;
@@ -247,11 +271,30 @@ div.content2 ul p{
 div.content2 ul p span{
     color:#e90029;
 }
+div.returntop{
+    position:fixed;
+    left:1250px;
+    top:500px;
+    width:50px;
+    height:50px;
+    background-color:#f1f1f1;
+    z-index:2;
+}
+div.returntop a{
+    display:block;
+    text-indent:-999px;
+    width:50px;
+    height:50px;
+    background-image:url(images/返回顶部.gif);
+    background-repeat:no-repeat;
+    background-position:50% 50%;
 
+}
 div.bottom{
     position:relative;
     background-color:black;
     height:200px;
     color:white;
     top:1000px;
+    z-index:0;
 }

@@ -14,6 +14,14 @@ div.top{
     background-position:left;
     z-index:1;
 }
+div.top .home{
+    position:absolute;
+    display:block;
+    width:200px;
+    height:60px;
+    left:20px;
+    top:15px;
+}
 div.navmap{
     width:1350px;
     background-image:url(images/nav.png);
@@ -106,9 +114,25 @@ div.nav3 a{
     color: #343434;
     font-size: small;
 }
+div.breadnav{
+    position:absolute;
+    top:65px;
+    left:50px;
+}
+div.breadnav ul {
+    list-style-type:none;
+}
+div.breadnav ul li{
+    display:inline-block;
+    margin:5px;
+}
+div.breadnav ul li a{
+    text-decoration:none;
+    color:#3385ff;
+}
 div.content {
     position: absolute;
-    top: 100px;
+    top: 120px;
     width: 1000px;
     left: 150px;
     height:500px;
@@ -152,7 +176,7 @@ div.content ul p{
 
 div.content1 {
     position: absolute;
-    top: 630px;
+    top: 650px;
     width: 1000px;
     left: 150px;
     height:580px;
@@ -197,7 +221,7 @@ div.content1 ul p{
 
 div.content2 {
     position: absolute;
-    top: 1240px;
+    top: 1260px;
     width: 1000px;
     left: 150px;
     height:600px;
