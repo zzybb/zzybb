@@ -3,7 +3,7 @@
 }
 div.top{
     background-color:black;
-    width:102%;
+    width:103%;
     position:relative;
     top:-15px;
     left:-10px;
@@ -396,7 +396,14 @@ div.sel2 li:hover{
     background-color:white;
 } 
 div.bottom{
+    position:relative;
     background-color:black;
-    height:200px;
+    height:210px;
     color:white;
+    width:1370px;
+    left:-10px;
+    padding-left:20px;
+    margin-top:-30px;
+    bottom:-10px;
+
 }

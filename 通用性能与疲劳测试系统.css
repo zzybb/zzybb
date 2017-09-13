@@ -1,0 +1,20 @@
+﻿@import "高低温湿热实验箱.css";
+div.content{
+    background-image:url(images/通用性能与疲劳测试系统1.png);
+    background-position-x:95%;
+}
+div.content li{
+    font-weight:800;
+    font-size:20px;
+}
+div.content1 {
+    background-image:none;
+}
+div.content1 .img4{
+    position:relative;
+    top:-380px;
+    left:570px;
+}
+div.bottom{
+    margin-top:-500px;
+}
