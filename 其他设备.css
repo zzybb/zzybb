@@ -1,0 +1,63 @@
+﻿@import "车门系统及零部件测试.css";
+div.content1{
+    height:700px !important;
+}
+ul.jiegounav{
+    position:absolute;
+    list-style-type:none;
+    left:400px;
+    top:10px;
+}
+ul.jiegounav li{
+    margin-top:25px;
+}
+ul.jiegounav a{
+    display:block;
+    text-decoration:none;   
+    width:15px;
+    height:15px;
+    background-image: url(images/button.png);
+    background-repeat: no-repeat;
+    background-position: -15px 0;
+    text-indent:-9999px;
+}
+.jiegouStyle{
+    background-position:1px 0px !important;
+}
+div.jiegoucontent{
+    display: none;
+    position: absolute;
+    top: 100px;
+    left: -50px;
+    width: 400px;
+    height: 500px;
+}
+div.jiegoushow{
+    display:block !important;
+}
+img.img1{
+    margin-top:-40px;
+    margin-left:60px;
+}
+img.img2{
+    margin-left:60px;
+    margin-top:0px;
+}
+img.img3{
+    position:absolute;
+    top:195px;
+    left:-250px;
+}
+a.aboutmore{
+    margin-left:10px;
+    display:block;
+    width:50px;
+    height:30px;
+    background: linear-gradient(#37aaea,#117ed2);
+    color:white;
+    border-radius:5px;
+    border:none;
+    text-decoration:none;
+    padding-top:10px;
+    padding-left:15px;
+}

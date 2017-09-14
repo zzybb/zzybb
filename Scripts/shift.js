@@ -1,6 +1,7 @@
 addLoadEvent(start);
 function start() {
     Tabs(".listItem", ".smallcontent", "listItemStyle", "showall");
+    Tabs(".jiegouItem", ".jiegoucontent", "jiegouStyle", "jiegoushow");
 }
 function Tabs(tabs_name, contents_name, tabs_onclick_style, contents_onclick_style) {
     var tabs = document.querySelectorAll(tabs_name),
