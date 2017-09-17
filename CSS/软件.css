@@ -1,0 +1,121 @@
+﻿@import "导航栏.css";
+@import "底部栏.css";
+@import "面包导航.css";
+div.header{
+    position:absolute;
+    top:120px;
+    width:1348px;
+    background-image:url(../images/软件背景.jpg);
+    height:500px;
+    margin-left:-7px;
+}
+div.header h1{
+    color:white;
+    font-weight:500;
+    font-size:40px;
+    padding-left:550px;
+    padding-top:50px;
+}
+div.header p{
+    color:white;
+    padding-left:570px;
+    padding-top:0px;
+}
+p.one{
+    display:block;
+    position:absolute;
+    top:250px;
+    left:-350px;
+}
+p.two{
+    display:block;
+    position:absolute;
+    top:250px;
+    left:80px;
+
+}
+p span{
+    font-size:50px;
+
+}
+p.three{
+    display:block;
+    position:absolute;
+    top:250px;
+    left:500px;
+
+}
+div.content{
+    position:relative;
+    margin-top:-160px;
+    left:-5px;
+    top:-180px;
+    height:400px;
+    background-color:#e8e8e8;
+    width:1345px;
+}
+div.content h1{
+    color:#d51a28;
+    padding-left:500px;
+    font-size:40px;
+}
+ul.menulist{
+    display:inline-block;
+    margin-left:100px;
+    float:left;
+    list-style-type:none;
+    width:260px;
+}
+ul.menulist .toplist{
+    margin-bottom:20px;
+}
+ul.menulist .toplist{
+    display:block;
+    text-decoration:none;
+    color:black;
+    padding:15px;
+    box-shadow: 0 1px 1px #9c9c9c;
+    border-top: solid 3px black;
+    background-color:white;
+    background-image:url(../images/箭头.png);
+    background-repeat:no-repeat;
+    background-position:95%;
+}
+.toplistnone{
+    background-image:none !important;
+}
+ul.secondlist{
+    list-style-type:none;
+    background-color:white;
+    box-shadow: 0 1px 1px #9c9c9c;
+    border-top:none;
+    margin-top:-20px;
+    display:none;
+    position:absolute;
+    width:220px;
+}
+.toplistshow{
+    background-image:none !important;
+}
+.secondlistshow{
+    display:block !important;
+    left:auto !important;
+}
+ul.secondlist li{
+    margin-left:-45px;
+}
+ul.secondlist a{
+    display:block;
+    text-decoration:none;
+    border-top:1px #E5E5E5 solid;
+    padding:10px;
+    color:#8B8B7A;
+}
+ul.secondlist a:hover{
+    display:block;
+    text-decoration:none;
+    border-top:1px #E5E5E5 solid;
+    padding:10px;
+    color:white;
+    background-color:#d51a28;
+}

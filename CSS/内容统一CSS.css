@@ -1,0 +1,153 @@
+﻿@import "导航栏.css";
+@import "底部栏.css";
+@import "面包导航.css";
+@import "返回顶部.css";
+div.content {
+    position: absolute;
+    top: 120px;
+    width: 1000px;
+    left: 150px;
+    height:500px;
+    background-image: url(../images/高低温湿热实验箱1.png);
+    background-position:90% 40%;
+    background-repeat:no-repeat;
+    border:0;
+    box-shadow: 1px 0 0 0 #d2d2d2, 
+        -1px 0 0 0 #d2d2d2, 
+        0 1px 0 0 #b6b6b6,
+        0 2px 0 0 #d2d2d2, 
+        2px 0 0 0 #e6e6e6,
+        -2px 0 0 0 #e6e6e6,
+        0 3px 0 0 #e6e6e6,
+        0 -1px 0 0 #e6e6e6;
+    background-color:white;
+}
+div.content h1{
+    font-size: 300%;
+    margin-left:20px;
+    margin-top:10px;
+}
+div.content p{
+    font-weight: normal;
+    font-size: 150%;
+    color: #9c9c9c;
+    margin-left: 25px;
+    margin-top:-20px;
+
+}
+div.content ul{
+    margin-left:20px;
+}
+div.content ul p{
+    font-size:100%;
+    font-weight:200;
+    color:black;
+    margin-left:0;
+    margin-top:0;
+}
+div.content p span{
+    color:#e90029;
+
+}
+
+div.content1 {
+    position: absolute;
+    top: 650px;
+    width: 1000px;
+    left: 150px;
+    height:620px;
+    background-image: url(../images/步入式高低温实验箱.png);
+    background-position:90% 40%;
+    background-repeat:no-repeat;
+    border:0;
+    box-shadow: 1px 0 0 0 #d2d2d2, 
+        -1px 0 0 0 #d2d2d2, 
+        0 1px 0 0 #b6b6b6,
+        0 2px 0 0 #d2d2d2, 
+        2px 0 0 0 #e6e6e6,
+        -2px 0 0 0 #e6e6e6,
+        0 3px 0 0 #e6e6e6,
+        0 -1px 0 0 #e6e6e6;
+    background-color:white;
+}
+
+div.content1 h1{
+    font-size: 300%;
+    margin-left:20px;
+    margin-top:10px;
+}
+div.content1 p{
+    font-weight: normal;
+    font-size: 150%;
+    color: #9c9c9c;
+    margin-left: 25px;
+    margin-top:-20px;
+
+}
+div.content1 ul{
+    margin-left:20px;
+}
+div.content1 ul p{
+    font-size:100%;
+    font-weight:200;
+    color:black;
+    margin-left:0;
+    margin-top:0;
+}
+
+div.content2 {
+    position: absolute;
+    top: 1300px;
+    width: 1000px;
+    left: 150px;
+    height:600px;
+    background-image: url(../images/高低温湿热实验箱2.png);
+    background-position:90% 40%;
+    background-repeat:no-repeat;
+    border:0;
+    box-shadow: 1px 0 0 0 #d2d2d2, 
+        -1px 0 0 0 #d2d2d2, 
+        0 1px 0 0 #b6b6b6,
+        0 2px 0 0 #d2d2d2, 
+        2px 0 0 0 #e6e6e6,
+        -2px 0 0 0 #e6e6e6,
+        0 3px 0 0 #e6e6e6,
+        0 -1px 0 0 #e6e6e6;
+    background-color:white;
+}
+
+div.content2 h1{
+    font-size: 300%;
+    margin-left:20px;
+    margin-top:10px;
+}
+div.content2 p{
+    font-weight: normal;
+    font-size: 150%;
+    color: #9c9c9c;
+    margin-left: 25px;
+    margin-top:-20px;
+
+}
+div.content2 ul{
+    margin-left:20px;
+}
+div.content2 ul p{
+    font-size:100%;
+    font-weight:200;
+    color:black;
+    margin-left:0;
+    margin-top:0;
+}
+
+div.content2 ul p span{
+    color:#e90029;
+}
+div.bottom{
+    position:relative;
+    background-color:black;
+    height:200px;
+    color:white;
+    top:1000px;
+    z-index:0;
+}

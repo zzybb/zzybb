@@ -1,0 +1,16 @@
+﻿div.breadnav{
+    position:absolute;
+    top:65px;
+    left:50px;
+}
+div.breadnav ul {
+    list-style-type:none;
+}
+div.breadnav ul li{
+    display:inline-block;
+    margin:5px;
+}
+div.breadnav ul li a{
+    text-decoration:none;
+    color:#3385ff;
+}

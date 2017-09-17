@@ -1,12 +1,13 @@
-﻿@import"高低温湿热实验箱.css";
+﻿div.content{
+    background-image:url(../images/温度湿度振动三综合实验箱1.png);
+}
 div.content1 {
-    background-image:none !important;
+    background-image:none ;
 }
 div.content1 .nav li{
     list-style-type:none;
     margin:0;
     border:grey 1px solid;
-    //padding:15px;
     width:360px;
     border-top:none;
 }
@@ -65,3 +66,4 @@ div.showall{
 div.bottom{
     top:500px;
 }
+/*有选择功能使用*/

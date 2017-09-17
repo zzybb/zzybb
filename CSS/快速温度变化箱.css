@@ -1,142 +1,14 @@
-﻿body{
-    width:100%;
-    background: #f1f1f1;
-}
-div.top{
-    background-color:black;
-    width:102%;
-    position:relative;
-    top:-15px;
-    left:-10px;
-    height:80px;
-    background-image:url(images/logo.png);
-    background-repeat:no-repeat;
-    background-position:left;
-    z-index:1;
-}
-div.top .home{
-    position:absolute;
-    display:block;
-    width:200px;
-    height:60px;
-    left:20px;
-    top:15px;
-}
-div.navmap{
-    width:1350px;
-    background-image:url(images/nav.png);
-    background-repeat:repeat-x;
-    position:absolute;
-    top:70px;
-    height:50px;
-    left:-19px;
-}
-ul#nav{
-    position:absolute;
-    list-style-type:none;
-    top:20%;
-    left:60%;
-}
-ul#nav li{
-    display:inline-block;
-    padding-left:40px;
-}
-ul#nav a{
-    display:block;
-    text-decoration:none;
-    color:white;
-    height:48px;
-    position:relative;
-    top:-23px;
-    padding-top:23px;
-    padding-left:5px;
-    padding-right:5px;
-}
-ul#nav a:hover{
-    color:black;
-    background-color:white;
-}
-div.nav2 {
-    position: relative;
-    border: 1px solid #bababa;
-    width:300px;
-    border-top:none;
-    left:-9999px;
-    top:-33px;
-    z-index:1;
-    background-color:white;
-}
-div.nav2 h3{
-   color:grey;
-   padding-left:30px;
-   padding-top:20px;
-}
-div.nav2 ul{
-    list-style-type:none;
-}
-div.nav2 li {
-    margin: 10px;
-}
-div.nav2 p {
-    font-weight: bold;
-}
-div.nav2 a {
-    text-decoration: none;
-    color: #343434;
-    font-size: small;
-}
-div.nav3 {
-    position:relative;
-    border: 1px solid #bababa;
-    width:300px;
-    top:-418px;
-    left:-9999px;
-    z-index:1;
-    background-color:white;
-    border-top:none;
-}
-div.nav3 h3{
-   color:grey;
-   padding-left:30px;
-   padding-top:20px;
-}
-div.nav3 ul{
-    list-style-type:none;
-}
-div.nav3 li{
-    margin:10px;
-}
-div.nav3 p{
-    font-weight:bold;
-}
-div.nav3 a{
-    text-decoration: none;
-    color: #343434;
-    font-size: small;
-}
-div.breadnav{
-    position:absolute;
-    top:65px;
-    left:50px;
-}
-div.breadnav ul {
-    list-style-type:none;
-}
-div.breadnav ul li{
-    display:inline-block;
-    margin:5px;
-}
-div.breadnav ul li a{
-    text-decoration:none;
-    color:#3385ff;
-}
+﻿@import "导航栏.css";
+@import "底部栏.css";
+@import "面包导航.css";
+@import "返回顶部.css";
 div.content {
     position: absolute;
     top: 120px;
     width: 1000px;
     left: 150px;
     height:500px;
-    background-image: url(images/快速温度变化实验箱1.png);
+    background-image: url(../images/快速温度变化实验箱1.png);
     background-position:90% 40%;
     background-repeat:no-repeat;
     border:0;
@@ -180,7 +52,7 @@ div.content1 {
     width: 1000px;
     left: 150px;
     height:580px;
-    background-image: url(images/快速温度变化实验箱2.png);
+    background-image: url(../images/快速温度变化实验箱2.png);
     background-position:90% 40%;
     background-repeat:no-repeat;
     border:0;
@@ -225,7 +97,7 @@ div.content2 {
     width: 1000px;
     left: 150px;
     height:600px;
-    background-image: url(images/快速温度变化实验箱3.png);
+    background-image: url(../images/快速温度变化实验箱3.png);
     background-position:90% 40%;
     background-repeat:no-repeat;
     border:0;

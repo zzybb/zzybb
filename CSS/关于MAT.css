@@ -1,0 +1,81 @@
+﻿@import "返回顶部.css";
+@import "导航栏.css";
+@import "底部栏.css";
+body{
+    background-color:#444;
+}
+div.wrapper{
+    position:relative;
+    background-color:white;
+    width:1000px;
+    margin:0 auto;
+    margin-top:-890px;
+    height:2300px;
+
+}
+div.wrapper h2{
+    color:#333;
+    padding-left:20px;
+    padding-top:20px;
+}
+div.content h1{
+    font-size:160%;
+    font-weight:200;
+    padding-left:40px;
+
+}
+div.content li{
+    margin-top:40px;
+    width:500px;
+}
+div.content li:hover span{
+    font-size:40px;
+    color:#e90029;
+}
+img.right{
+    position:absolute;
+    left:570px;
+    top:100px;
+}
+div.wrapper hr{
+    width:95%;
+}
+div.list {
+    position:relative;
+    top:150px;
+}
+div.list h1{
+    padding-left:320px;
+    color:#e90029;
+    font-size:50px;
+    font-weight:700;
+}
+div.list li{
+    margin-top:50px;
+    margin-left:180px;
+    font-size:20px;
+    width:650px;
+    font-weight:700;
+}
+div.clent{
+    position:relative;
+    top:250px;
+}
+div.clent h1{
+    padding-left:360px;
+    color:#e90029;
+    font-size:50px;
+    font-weight:700;
+}
+div.clent img{
+    margin-left:100px;
+}
+div.foot {
+    position:relative;
+    top:250px;
+}
+div.foot p{
+    padding-left:240px;
+
+}
+

@@ -1,5 +1,21 @@
-﻿@import "车门系统及零部件测试.css";
+﻿@import "内容统一CSS.css";
+@import "选择功能CSS.css";
+div.content1 li{
+    font-weight:900;
+}
+div.content1 p{
+    font-size:50px;
+    margin-top:10px;
+}
+div.left img{
+    position:absolute;
+    left:-60px;
+}
+div.bottom{
+    margin-top:-400px;
+}
 div.content1{
+    top:150px;
     height:700px !important;
 }
 ul.jiegounav{
@@ -16,7 +32,7 @@ ul.jiegounav a{
     text-decoration:none;   
     width:15px;
     height:15px;
-    background-image: url(images/button.png);
+    background-image: url(../images/button.png);
     background-repeat: no-repeat;
     background-position: -15px 0;
     text-indent:-9999px;

@@ -1,0 +1,69 @@
+﻿@import"内容统一CSS.css";
+div.content{
+    background-image:url(../images/温度湿度振动三综合实验箱1.png);
+}
+div.content1 {
+    background-image:none ;
+}
+div.content1 .nav li{
+    list-style-type:none;
+    margin:0;
+    border:grey 1px solid;
+    width:360px;
+    border-top:none;
+}
+div.content1 .nav li:first-child{
+    border-top:grey 1px solid;
+
+}
+div.content1 .nav li a{
+    display:block;
+    position:relative;
+    text-decoration:none;
+    color:#343434;
+    font-size:95%;
+    padding:20px;
+}
+div.content1 .nav li a::after{
+    content:" ";
+    position:absolute;
+    border-left:10px solid grey;
+    border-top:10px solid transparent;
+    border-right:10px solid transparent;
+    border-bottom:10px solid transparent;
+    left:330px;
+}
+div.content1 .nav li a:hover{
+    color:white;
+    background-color:gray;
+}
+div.content1 .nav li a:hover::after{
+    content:" ";
+    position:absolute;
+    border-left:10px solid white;
+    border-top:10px solid transparent;
+    border-right:10px solid transparent;
+    border-bottom:10px solid transparent;
+    left:330px;
+}
+.listItemStyle{
+    color:white !important;
+    background-color:gray;
+}
+div.content1 h2{
+    color:#e90029;
+}
+div.smallcontent {
+    display: none;
+    position: absolute;
+    top: 100px;
+    left: 500px;
+    width: 400px;
+    height: 500px;
+}
+div.showall{
+    display:block !important;
+}
+div.bottom{
+    top:500px;
+}

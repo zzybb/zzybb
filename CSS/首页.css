@@ -1,109 +1,14 @@
-﻿body{
-    width:100%;
-}
-div.top{
-    background-color:black;
-    width:103%;
-    position:relative;
-    top:-15px;
-    left:-10px;
-    height:80px;
-    background-image:url(images/logo.png);
-    background-repeat:no-repeat;
-    background-position:left;
-    z-index:1;
-}
+﻿@import "返回顶部.css";
+@import "导航栏.css";
+@import "底部栏.css";
 div.navmap{
     width:1350px;
-    background-image:url(images/nav.png);
+    background-image:url(../images/nav.png);
     background-repeat:repeat-x;
     position:absolute;
     top:70px;
     height:50px;
     left:-19px;
-}
-ul#nav{
-    position:absolute;
-    list-style-type:none;
-    top:20%;
-    left:60%;
-}
-ul#nav li{
-    display:inline-block;
-    padding-left:40px;
-}
-ul#nav a{
-    display:block;
-    text-decoration:none;
-    color:white;
-    height:48px;
-    position:relative;
-    top:-23px;
-    padding-top:23px;
-    padding-left:5px;
-    padding-right:5px;
-}
-ul#nav a:hover{
-    color:black;
-    background-color:white;
-}
-div.nav2 {
-    position: relative;
-    border: 1px solid #bababa;
-    width:300px;
-    border-top:none;
-    left:-9999px;
-    top:-33px;
-    z-index:1;
-    background-color:white;
-}
-div.nav2 h3{
-   color:grey;
-   padding-left:30px;
-   padding-top:20px;
-}
-div.nav2 ul{
-    list-style-type:none;
-}
-div.nav2 li {
-    margin: 10px;
-}
-div.nav2 p {
-    font-weight: bold;
-}
-div.nav2 a {
-    text-decoration: none;
-    color: #343434;
-    font-size: small;
-}
-div.nav3 {
-    position:relative;
-    border: 1px solid #bababa;
-    width:300px;
-    top:-418px;
-    left:-9999px;
-    z-index:1;
-    background-color:white;
-    border-top:none;
-}
-div.nav3 h3{
-   color:grey;
-   padding-left:30px;
-   padding-top:20px;
-}
-div.nav3 ul{
-    list-style-type:none;
-}
-div.nav3 li{
-    margin:10px;
-}
-div.nav3 p{
-    font-weight:bold;
-}
-div.nav3 a{
-    text-decoration: none;
-    color: #343434;
-    font-size: small;
 }
 div.showpic{
     position:absolute;
@@ -185,7 +90,7 @@ div.select a {
     padding: 8px;
     margin: 40px;
     text-indent: -9999px;
-    background-image: url(images/button.png);
+    background-image: url(../images/button.png);
     background-repeat: no-repeat;
     background-position: -15px 0;
     height:5px;
@@ -195,7 +100,7 @@ div.select a {
     padding:8px;
     margin:40px;
     text-indent:-9999px;
-    background-image:url(images/button.png);
+    background-image:url(../images/button.png);
     background-repeat:no-repeat;
     background-position:1px 0px;
     height:5px;
@@ -293,13 +198,19 @@ div.select4 button:active::before{
 	-o-box-shadow: inset 0px 1px 0px #60c9f0, 0px 3px 0px #0e3871, 0px 6px 3px #1a80a6;
 	box-shadow: inset 0px 1px 0px #60c9f0, 0px 3px 0px #0e3871, 0px 6px 3px #1a80a6;
 }
+button a{
+    display:block;
+    color:white;
+    text-decoration:none;
+}
 div.center{
     position:relative;
     top:-350px;
-    width:1370px;
+    width:1390px;
     height:400px;
-
+    margin-left:-65px;
 }
+
 div.center h2{
     position:relative;
     left:550px;
@@ -394,15 +305,4 @@ div.sel1 li:hover{
 div.sel2 li:hover{
     background-color:white;
 } 
-div.bottom{
-    position:relative;
-    background-color:black;
-    height:210px;
-    color:white;
-    width:1370px;
-    left:-10px;
-    padding-left:20px;
-    margin-top:-30px;
-    bottom:-10px;
 
-}

@@ -1,4 +1,5 @@
-﻿@import "温度湿度综合振动实验箱.css";
+﻿@import "内容统一CSS.css";
+@import "选择功能CSS.css";
 div.content1 {
     top:150px;
 }

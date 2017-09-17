@@ -1,0 +1,12 @@
+﻿div.bottom{
+    position:relative;
+    background-color:black;
+    height:210px;
+    color:white;
+    width:1325px;
+    left:-10px;
+    padding-left:25px;
+    margin-top:-30px;
+    bottom:-10px;
+
+}

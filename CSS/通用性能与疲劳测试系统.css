@@ -1,6 +1,6 @@
-﻿@import "高低温湿热实验箱.css";
+﻿@import"内容统一CSS.css";
 div.content{
-    background-image:url(images/通用性能与疲劳测试系统1.png);
+    background-image:url(../images/通用性能与疲劳测试系统1.png);
     background-position-x:95%;
 }
 div.content li{

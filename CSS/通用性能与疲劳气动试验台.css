@@ -1,0 +1,10 @@
+﻿@import"内容统一CSS.css";
+span{
+    color:#e90029;
+}
+div.bottom{
+    margin-top:-500px;
+}
+div.content1{
+    background-image:url(../images/通用性能与疲劳伺服电缸试验台.png);
+}
