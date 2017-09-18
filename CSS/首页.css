@@ -206,9 +206,8 @@ button a{
 div.center{
     position:relative;
     top:-350px;
-    width:1390px;
-    height:400px;
-    margin-left:-65px;
+    width:1330px;
+    height:200px;
 }
 
 div.center h2{
@@ -218,12 +217,64 @@ div.center h2{
     width:400px;
 }
 div.center a{
-    float:right; 
+    float:left;
+    font-size:15px;
+}
+a.gongzhuang1{
+    display:block;
+    background-image:url(../images/工装1.png);
+    background-repeat:no-repeat;
+    width:330px;
+    height:320px;
+    padding-top:290px;
+    text-decoration:none;
+    color:black;
+}
+a.gongzhuang1:hover,
+a.gongzhuang2:hover,
+a.gongzhuang3:hover,
+a.gongzhuang4:hover
+{
+    background-position:20% 5%;
+    color:#e90029;
+    font-size:25px;
+    font-weight:900;
+}
+a.gongzhuang2{
+    display:block;
+    background-image:url(../images/工装2.png);
+    background-repeat:no-repeat;
+    width:330px;
+    height:320px;
+    padding-top:290px;
+    text-decoration:none;
+    color:black;
+}
+a.gongzhuang3{
+    display:block;
+    //border:1px red solid;
+    background-image:url(../images/工装3.png);
+    background-repeat:no-repeat;
+    width:330px;
+    height:320px;
+    padding-top:290px;
+    text-decoration:none;
+    color:black;
+}
+a.gongzhuang4{
+    display:block;
+    //border:1px red solid;
+    background-image:url(../images/工装4.png);
+    background-repeat:no-repeat;
+    width:330px;
+    height:320px;
+    padding-top:290px;
+    text-decoration:none;
+    color:black;
 }
 div.sel {
     position:relative;
-    top:-300px;
-    height:500px;
+    height:600px;
     width:1000px;
     left:200px;
 }
@@ -257,19 +308,20 @@ div.sel1 {
 }
 div.sel2 {
     display:none;
-    position: relative;
+    position:absolute;
     left: 400px;
     width: 500px;
     height: 450px;
-    top: 50px;
+    top:20px;   
+
 }
 div.sel3 {
     display:none;
-    position: relative;
+    position: absolute;
     left: 400px;
     width: 500px;
     height: 450px;
-    top: 50px;
+    top: 20px;
 }
 div.sel1 p{
     position:absolute;
