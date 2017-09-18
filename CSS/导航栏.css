@@ -13,7 +13,14 @@ div.top{
     background-position:left;
     z-index:1;
 }
-
+a.retuindex{
+    position:absolute;
+    left:20px;
+    top:10px;
+    width:200px;
+    height:65px;
+    text-indent:-999px;
+}
 ul#nav{
     position:absolute;
     list-style-type:none;
